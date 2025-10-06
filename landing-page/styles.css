@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+/* Section 1 */
+
+header {
+    background-color: #1f2937;  
+    padding: 36px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+   
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+
+}
+
+.nav ul {
+display: flex;
+justify-content: space-between;
+gap: 12px;
+list-style-type: none;
+}
+
+.nav ul a{
+color:whitesmoke;
+text-decoration: none;
+}
+
+/* Hero main */
+
+.hero-main-container{
+display:flex;
+justify-content: space-between;
+background-color: #1f2937;
+padding: 36px;
+height: 124px;  
+}
+
+.h2{
+flex: 1;
+font-size: 48px;
+font-weight: 900;
+color: #f9faf8;
+}
+
+.hero-secondary-text{
+flex: 1;
+font-size: 18px;
+color: #e5e7eb;
+    }
+
+.img-container{
+display: flex;
+background-color: gray;
+
+}
+
+.img-container img{
+flex: 1;
+color: white;
+font-size: 12px;
+justify-content: center;
+align-self: center;
+
+}
+
+
+.sign-up button{
+flex: 1;
+background-color:#3882f6;
+color:#f9faf8;
+border-radius: 3px;
+border-width: 0;
+padding: 12px;
+margin-top: 12px;
+}
+
+/* Section 2 */
+
+.information-container {
+text-align: center;
+}
+.information-container h3 {
+font-size: 36px;
+font-weight: 900;
+color: #1F2937;
+margin-top: 16px;
+}
+
+.random-information {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 25px;
+padding-top: 36px;
+padding-bottom: 57px;
+}
+
+.random-borders {
+border: solid 2px rgb(50, 113, 206);
+width: 150px;
+height: 150px;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+.random-borders p {
+padding-top: 164px;
+}
+
+/* Section 3 */
+
+.quote-body{
+    background-color: #e5e7eb;
+padding: 100px;
+}
+
+.quote-container {
+display: flex;
+justify-content: center;
+}
+.quote-container p {
+font-style: italic;
+
+}
+
+.quote-writer-container {
+display: flex;
+justify-content: flex-end;
+margin-right: 80    px;
+font-weight: bold;
+}
+
+/* Section 4 */
+
+.cta-container {
+display: flex;
+background-color: #3882f6;
+padding: 36px;
+margin: 50px 50px 50px 50px;
+color: white;
+justify-content: center;
+gap: 69px;
+border-radius: 5px;
+}
+
+.cta-container button{
+background-color: #3882f6;
+border: 2px solid white;
+color: white;
+width: 69px;
+border-radius: 4px;
+}
+
+/* Section 5 */
+
+.footer-container {
+background-color: #1F2937;
+color: white;
+text-align: center;
+padding: 69px;
+}
+
